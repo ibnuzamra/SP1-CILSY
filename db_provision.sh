@@ -13,8 +13,8 @@ echo "======================="
 # KONFIGURASI MYSQL
 echo "Konfigurasi MySQL pada File /etc/mysql/mysql.conf.d/mysqld.cnf"
 sudo cp /etc/mysql/mysql.conf.d/mysqld.cnf /etc/mysql/mysql.conf.d/mysqld.cnf.bak
-sudo sed -i "s/.*bind-address.*/bind-address = 10.0.17.11/" /etc/mysql/mysql.conf.d/mysqld.cnf
-echo "Update bind address MySQL pada File /etc/mysql/mysql.conf.d/mysqld.cnf menjadi 10.0.17.11 untuk mengizinkan koneksi eksternal"
+sudo sed -i "s/.*bind-address.*/bind-address = 10.10.17.11/" /etc/mysql/mysql.conf.d/mysqld.cnf
+echo "Update bind address MySQL pada File /etc/mysql/mysql.conf.d/mysqld.cnf menjadi 10.10.17.11 untuk mengizinkan koneksi eksternal"
 echo "======================="
 
 echo "Restart Service Database Server"
