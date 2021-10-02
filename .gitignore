@@ -1,0 +1,4 @@
+.vagrant
+staging
+*log
+sh.sh
